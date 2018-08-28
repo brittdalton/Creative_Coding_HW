@@ -33,6 +33,9 @@
 
 
 ###### Markdown ######
+>A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. Markup languages tend to encourage writers to focus on content and structure before concerning themselves with presentation. Structure is defined for a processor through the use of tags embedded directly in the text.
+> - [Creative Coding Course Website](https://montana-media-arts.github.io/creative-coding-1/modules/week-2/markup/)
+
 
 |Formatting | Code|
 |---------- | -----|
