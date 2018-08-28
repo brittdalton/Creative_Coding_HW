@@ -11,16 +11,17 @@
 * Introduction to [GitHub](https://github.com)
 * Creation of new repo for HW
 * Overview of Version Control
-
+---
 * Introduction to Atom
 * Personalizing themes/packages for text editor for GitHub
 * Overview of collaboration and public source code
-
-*
+---
+* Begin to use markdown by structuring week 02 summary
 
 
 ##### What steps did you take to complete the assignment? #####
 
+###### GitHub and Atom ######
 1. Create account Github.com
 2. Install GitHub Desktop GUI application
 3. Connect online account to GitHub Desktop
@@ -30,6 +31,12 @@
 6. Add content in Atom
 7. Committ changes in GitHub Desktop, push changes to Github.com
 
+
+###### Markdown ######
+
+Formatting | Code
+---------- | -----
+# Heading 1 # |
 
 ##### Problems + Issues #####
 
