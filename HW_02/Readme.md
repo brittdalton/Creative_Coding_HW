@@ -53,7 +53,7 @@ I had a little trouble with this table :point_up: but with a little trial and er
 I was really excited to learn about the "Explore" area of github and spent some time looking through a few awesome projects, specifically the [Nasa open source plans for a rover](https://github.com/nasa-jpl/open-source-rover).
 
 ##### How did you contribute to your classmates issues this week? #####
+This week I posted to our course issue board for week one questions and learned to post with tags to reply, at this time there are no issues posted to respond to but I will keep checking in attempt to help others if I can.
 
 
-
-![Screenshot of Week 02 HW](name-of-the-image-file.jpg)
+![Screenshot of Week 02 HW](/week_02_screenshot.png)
