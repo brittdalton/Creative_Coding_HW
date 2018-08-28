@@ -6,7 +6,7 @@
 
 * Introduction to Unix
 * Read [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
-* Practiced navigation, file creation
+* Practiced navigation, file creation via Terminal
 ---
 * Introduction to [GitHub](https://github.com)
 * Creation of new repo for HW
