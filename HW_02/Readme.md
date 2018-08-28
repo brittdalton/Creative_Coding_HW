@@ -39,12 +39,12 @@
 
 |Formatting | Code|
 |---------- | -----|
-| Headings | '# Heading #'|
-|## Heading 2 ## | '''## Heading 2 ##'''|
-|### Heading 3 ### | '''### Heading 3 ###'''|
-|#### Heading 4 #### | '''#### Heading 4 ####'''|
-|##### Heading 5 ##### | '''##### Heading 5 #####'''|
-|###### Heading 6 ###### | '''###### Heading 6 ######'''|
+| Headings | `# Heading #`|
+| Emphasis | ` *Italics*`|
+| Unordered List | ` * Items `|
+| Ordered List | ` 1. Items `|
+| Links | ` [Link Name](url)`|
+| Images | `![Image Name](file location)`|
 
 ##### Problems + Issues #####
 
