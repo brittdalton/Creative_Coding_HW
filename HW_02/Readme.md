@@ -34,9 +34,10 @@
 
 ###### Markdown ######
 
-Formatting | Code
----------- | -----
-# Heading-1 # | ''' # Heading #
+|Formatting | Code|
+|---------- | -----|
+|# Heading-1 # | ''' # Heading-1 # '''|
+|## Heading-2 ## | '''## Heading-2 ##'''|
 
 ##### Problems + Issues #####
 
