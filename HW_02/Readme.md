@@ -36,7 +36,7 @@
 
 Formatting | Code
 ---------- | -----
-# Heading 1 # |
+# Heading-1 # | ''' # Heading #
 
 ##### Problems + Issues #####
 
