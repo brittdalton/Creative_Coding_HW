@@ -47,10 +47,13 @@
 | Images | `![Image Name](file location)`|
 
 ##### Problems + Issues #####
+I had a little trouble with this table :point_up: but with a little trial and error was able to get it right
 
 ##### What did you learn this week? #####
+I was really excited to learn about the "Explore" area of github and spent some time looking through a few awesome projects, specifically the [Nasa open source plans for a rover](https://github.com/nasa-jpl/open-source-rover).
 
 ##### How did you contribute to your classmates issues this week? #####
+
 
 
 ![Screenshot of Week 02 HW](name-of-the-image-file.jpg)
