@@ -7,7 +7,7 @@
 * Introduction to Unix
 * Read [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 * Practiced navigation, file creation
-
+---
 * Introduction to [GitHub](https://github.com)
 * Creation of new repo for HW
 * Overview of Version Control
@@ -15,6 +15,8 @@
 * Introduction to Atom
 * Personalizing themes/packages for text editor for GitHub
 * Overview of collaboration and public source code
+
+*
 
 
 ##### What steps did you take to complete the assignment? #####
