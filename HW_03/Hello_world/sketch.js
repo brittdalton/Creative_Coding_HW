@@ -4,6 +4,7 @@ function setup(){
 
 }
 
-function text("Hello Universe!",0,10);{
+function draw (){
+         text ("Hello Universe!",0,10);
 
 }
