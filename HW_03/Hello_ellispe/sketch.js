@@ -12,11 +12,11 @@ function draw(){
    ellipse parameter: (x,y,w,h)
 */
   ellipseMode(RADIUS);
-  fill('red');
+  fill(255);
   ellipse (20,20,30,30);
 
   ellipseMode(CENTER);
-  fill(100);
+  fill("red");
 
   ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
   fill('pink')
