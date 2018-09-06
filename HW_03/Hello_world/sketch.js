@@ -5,7 +5,7 @@ function setup(){
 }
 
 function draw (){
-         text ("Hello Universe!",0,40);
+         text ("Hello Universe!",40,40);
          /* saying hello to the universe, extending greetings beyond
          planet earth (just in case)
          */
