@@ -1,3 +1,9 @@
 function setup(){
-  text("Hello Universe!",0,10);
+  createCanvas( 400,400 )
+  background ( 'pink' )
+
+}
+
+function text("Hello Universe!",0,10);{
+
 }
