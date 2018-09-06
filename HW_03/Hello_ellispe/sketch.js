@@ -1,6 +1,6 @@
 function setup(){     // setup funtion needs to be in the top of each sketch.js
-createCanvas(400,400)        // and only needs to be added once
-background (blue)
+createCanvas( 400,400 )        // and only needs to be added once
+background ( 'blue' )
 
 }
 
