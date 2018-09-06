@@ -1,7 +1,10 @@
 function setup(){     // setup funtion needs to be in the top of each sketch.js
-                      // and only needs to be added once
+createCanvas(400,400)        // and only needs to be added once
+background (blue)
 
 }
+
+
 
 function draw(){
 //  ellipse( 20,20,30,30 ); //turning off to try ellispeMode its place
