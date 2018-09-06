@@ -12,14 +12,14 @@ function draw(){
    ellipse parameter: (x,y,w,h)
 */
   ellipseMode(RADIUS);
-  fill(255);
+  fill('red');
   ellipse (20,20,30,30);
 
   ellipseMode(CENTER);
   fill(100);
 
   ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
-  fill('red')
+  fill('pink')
 
   ellipse( 60,60,30,30 ); // adding second ellipse to test x,y placement
   ellipse( 100,100,30,30 );
