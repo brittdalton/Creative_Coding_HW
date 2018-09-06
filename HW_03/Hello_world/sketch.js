@@ -6,7 +6,6 @@ function setup(){
 
 function draw (){
          text ("Hello Universe!",40,40);
-         textSize (40);
          /* saying hello to the universe, extending greetings beyond
          planet earth (just in case)
          */
