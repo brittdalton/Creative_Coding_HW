@@ -41,5 +41,5 @@ function draw(){
 
   line (36,399,200,399)
   stroke ('pink')
-  strokeWeight (15)
+
 }
