@@ -16,11 +16,11 @@ stroke ('black')
 strokeWeight (1)
 
   ellipseMode(RADIUS);
-fill(255);
+  fill(255);
   ellipse (20,20,30,30);
 
   ellipseMode(CENTER);
-fill("red");        //after i tried this i played with the idea that the
+  fill('red');        //after i tried this i played with the idea that the
                       // two ellipses white and red mixed and the smaller
                       // ellispes following it are pink
 
