@@ -1,3 +1,3 @@
 function setup(){
-  text("Hello World!",20,100);
+  text("Blank Source Folders",20,100);
 }
