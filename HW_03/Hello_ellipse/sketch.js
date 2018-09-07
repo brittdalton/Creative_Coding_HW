@@ -20,8 +20,11 @@ function draw(){
                       // two ellipses white and red mixed and the smaller
                       // ellispes following it are pink
 
-  ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
+  stroke ('pink')
+  strokeWeight (1)
   fill('pink')
+  ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
+  
 
   ellipse( 60,60,30,30 ); // adding second ellipse to test x,y placement
   ellipse( 100,100,30,30 );
