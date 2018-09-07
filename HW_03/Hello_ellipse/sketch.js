@@ -26,7 +26,7 @@ strokeWeight (1)
 
  fill('pink')
 
-  ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
+  // ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
   ellipse( 60,60,30,30 ); // adding second ellipse to test x,y placement
   ellipse( 100,100,30,30 );
   /*attempting to create line of ellipses, they were cut off so i am assuming the default canvas
