@@ -1,4 +1,4 @@
-# Creative_Coding_HW
+# Creative Coding Homework Homepage #
 
 ## Britt Dalton ##
 
