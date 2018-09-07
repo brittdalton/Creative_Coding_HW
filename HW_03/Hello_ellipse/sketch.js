@@ -37,5 +37,7 @@ function draw(){
   ellipse( 260,260,30,30 ); // continue line of ellipses
 
   ellipse( 280,300,30,30 ); //test to change direction
+  ellipse( 300,340,30,30 ); //creating dropping effect
 
+  
 }
