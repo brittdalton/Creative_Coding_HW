@@ -36,6 +36,6 @@ function draw(){
   ellipse( 220,220,30,30 );
   ellipse( 260,260,30,30 ); // continue line of ellipses
 
-  ellipse( 220,260,30,30 ); //test to change direction
+  ellipse( 260,300,30,30 ); //test to change direction
 
 }
