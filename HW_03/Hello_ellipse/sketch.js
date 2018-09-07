@@ -23,7 +23,7 @@ function draw(){
   stroke ('black')
   strokeWeight (1)
 
-  ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
+  // ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
   fill('pink')
 
   ellipse( 60,60,30,30 ); // adding second ellipse to test x,y placement
