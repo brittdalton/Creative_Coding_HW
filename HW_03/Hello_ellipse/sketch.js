@@ -40,6 +40,8 @@ function draw(){
   ellipse( 300,340,30,30 ); //creating dropping effect
 
   line (290,399,390,399)
-  stroke ('pink')
+  lineStroke ('pink')
+
+
 
 }
