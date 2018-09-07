@@ -31,4 +31,9 @@ function draw(){
    TODO try this again after canvas lesson to see if i can continue the line of ellipses
    -- issue fixed by creating 400,400 canvas
   */
+  ellipse( 140,140,30,30 );
+  ellipse( 180,180,30,30 );
+  ellipse( 200,200,30,30 );
+  ellipse( 240,240,30,30 );
+
 }

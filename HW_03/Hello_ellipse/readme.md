@@ -1,5 +1,3 @@
-# Empty p5 sketch.
+# Week 3 Ellipse Practice #
 
-Please replace contents of this file with appropriate readme information after finishing your p5 sketch.
-
-Current p5 version -> 0.7.1
+For week three homework readme file and summary [Click Here](https://github.com/brittdalton/Creative_Coding_HW/tree/master/HW_03)
