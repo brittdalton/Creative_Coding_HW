@@ -39,6 +39,6 @@ function draw(){
   ellipse( 280,300,30,30 ); //test to change direction
   ellipse( 300,340,30,30 ); //creating dropping effect
 
-  line (36,400,200,90)
+  line (36,400,200,400)
   stroke ('pink')
 }
