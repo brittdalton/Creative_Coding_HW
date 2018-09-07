@@ -3,7 +3,7 @@
 
 Britt Dalton, 74199 section 50
 
-[Hello World] (https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_world)
+[Hello World](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_world)
 
  #### Introduction ####
 
