@@ -1,1 +1,2 @@
-https://brittdalton.github.io/Creative_Coding_HW/HW_03/
+### Source Material ###
+#### Provided by Instructor ####

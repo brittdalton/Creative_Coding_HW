@@ -5,10 +5,9 @@ function setup(){  //setup document
 }
 
 function draw (){       //instruction to draw
-         text ("Hello Universe!",40,40);  // text to draw on canvas
-         /* saying hello to the universe, extending greetings beyond
-         planet earth (just in case)
-         */
+         text ("Hello World!",40,40);  // text to draw on canvas
+
+         
 
 
 }
