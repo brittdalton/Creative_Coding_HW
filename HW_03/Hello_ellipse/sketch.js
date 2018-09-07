@@ -11,21 +11,22 @@ function draw(){
 /* testing parameters in draw function
    ellipse parameter: (x,y,w,h)
 */
+
+stroke ('black')
+strokeWeight (1)
+
   ellipseMode(RADIUS);
-  fill(255);
+fill(255);
   ellipse (20,20,30,30);
 
   ellipseMode(CENTER);
-  fill("red");        //after i tried this i played with the idea that the
+fill("red");        //after i tried this i played with the idea that the
                       // two ellipses white and red mixed and the smaller
                       // ellispes following it are pink
 
-  stroke ('black')
-  strokeWeight (1)
+ fill('pink')
 
   ellipse(20,20,30,30); // trying out code from p5js.org reference ellipseMode()
-  fill('pink')
-
   ellipse( 60,60,30,30 ); // adding second ellipse to test x,y placement
   ellipse( 100,100,30,30 );
   /*attempting to create line of ellipses, they were cut off so i am assuming the default canvas
@@ -42,8 +43,8 @@ function draw(){
   ellipse( 280,300,30,30 ); //test to change direction
   ellipse( 300,340,30,30 ); //creating dropping effect
 
-  stroke ('pink')
-  strokeWeight (15)
+stroke ('pink')
+strokeWeight (15)
   line (290,399,390,399)
 
 
