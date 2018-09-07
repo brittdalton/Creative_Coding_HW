@@ -38,10 +38,8 @@ function draw(){
 
   ellipse( 280,300,30,30 ); //test to change direction
   ellipse( 300,340,30,30 ); //creating dropping effect
-}
 
-  function draw (){          //tyring seperate function to avoid stroke weight applied to ellipses
-  line (36,399,200,399) // testing line shapes to make a "smooshed" ellipse
+  line (36,399,200,399)
   stroke ('pink')
   strokeWeight (15)
 }
