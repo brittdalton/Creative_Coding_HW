@@ -5,7 +5,7 @@
 ##### This week's work #####
 
 - Introduction to **Unix**
-* Read [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
+- Read [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 * Practiced navigation, file creation via Terminal
 ---
 * Introduction to [GitHub](https://github.com)
