@@ -16,9 +16,9 @@ Britt Dalton, 74199 section 50
  set up your directories to work in. After getting set up, it is best to spend some time
  practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function.
 
- * Functions used to create "Hello World": *
+###### Functions used to create "Hello World": ######
 
- |Functions | Code Example | More Info |
+|Functions | Code Example | More Info |
 |---------- | -------------|-----------|
 | Background() | `background(255, 204, 0);`|
 | Emphasis | ` *Italics*`|
