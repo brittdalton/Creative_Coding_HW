@@ -33,13 +33,21 @@ Britt Dalton, 74199 section 50
 
  #### Issues + Insights ####
 
- When learning to code, following along with a course and being provided code samples
- and lists of options to use can be invaluable in supporting development but in
- addition to provided information, the references written for specific languages contain
- extensive information to support learning and exploration as well as a place to
- look for updated materials or changes.
- [p5.js reference](https://p5js.org/reference/)
+:bulb: When learning to code, following along with a course and being provided code samples
+      and lists of options to use can be invaluable in supporting development but in
+      addition to provided information, the references written for specific languages contain
+      extensive information to support learning and exploration as well as a place to
+      look for updated materials or changes.
+      [p5.js reference](https://p5js.org/reference/)
+
+
 
 
 
  ![Screenshot of week 03 HW](/HW_03/Week_03_screenshot.png)
+
+Structure for summary:
+
+ Course Issue Board:
+ - Helped classmates with week 02 structure
+ - Helped classmates with link issues and image issues
