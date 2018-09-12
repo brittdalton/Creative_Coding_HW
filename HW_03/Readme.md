@@ -16,15 +16,15 @@ Britt Dalton, 74199 section 50
  set up your directories to work in. After getting set up, it is best to spend some time
  practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
  of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
- Draw() function. 
+ Draw() function.
 
-###### Functions used to create "Hello World": ######
+###### Functions used to create "Hello World" and "Hello Ellipse": ######
 
 |Functions | Code Example | More Info |
 |---------- | -------------|-----------|
 | Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
-| Emphasis | ` *Italics*`|
-| Unordered List | ` * Items `|
+| ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
+| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
 | Ordered List | ` 1. Items `|
 | Links | ` [Link Name](url)`|
 | Images | `![Image Name](file location)`|
