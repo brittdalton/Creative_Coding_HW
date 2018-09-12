@@ -31,6 +31,15 @@ Britt Dalton, 74199 section 50
 | ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
 
 
- #### Issues ####
+ #### Issues + Insights ####
 
- ![Image of ...] (link to image)
+ When learning to code, following along with a course and being provided code samples
+ and lists of options to use can be invaluable in supporting development but in
+ addition to provided information, the references written for specific languages contain
+ extensive information to support learning and exploration as well as a place to
+ look for updated materials or changes.
+ [p5.js reference](https://p5js.org/reference/)
+
+
+
+ ![Screenshot for week 3] (/HW_03/Week_03_screenshot.png)
