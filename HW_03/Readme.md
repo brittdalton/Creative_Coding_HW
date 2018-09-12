@@ -34,17 +34,21 @@ Britt Dalton, 74199 section 50
  #### Issues + Insights ####
 
 :bulb: When learning to code, following along with a course and being provided code samples
-      and lists of options to use can be invaluable in supporting development but in
-      addition to provided information, the references written for specific languages contain
-      extensive information to support learning and exploration as well as a place to
-      look for updated materials or changes.
-      [p5.js reference](https://p5js.org/reference/)
+ and lists of options to use can be invaluable in supporting development but in
+ addition to provided information, the references written for specific languages contain
+ extensive information to support learning and exploration as well as a place to
+ look for updated materials or changes.
+ [p5.js reference](https://p5js.org/reference/)
+
+ :zap: Learning to place shapes on your canvas can be a little frustrating, especially
+ if you are unfamiliar with grids. The dimensions of your canvas will define the
+ limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
+ fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
+ ![Canvas Grid](/HW_03/Grid_example.png)
 
 
 
 
-
- ![Screenshot of week 03 HW](/HW_03/Week_03_screenshot.png)
 
 Structure for summary:
 
