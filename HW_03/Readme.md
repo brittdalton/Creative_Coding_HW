@@ -5,6 +5,8 @@ Britt Dalton, 74199 section 50
 
 [Hello World](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_world)
 
+[Ellipse Practice](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_ellipse)
+
  #### Introduction ####
  Many artists learning to code begin with [processing software](https://processing.org),
  using a JavaScript library [p5.js](https://p5js.org) you can "draw" in a web browser.
