@@ -24,10 +24,12 @@ Britt Dalton, 74199 section 50
 |---------- | -------------|-----------|
 | Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
 | ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
+| line()| ` line(30, 20, 85, 75);`|[Line Reference](https://p5js.org/reference/#/p5/line) |
+| stroke() | `stroke(255, 204, 0);`|[Stroke Reference](https://p5js.org/reference/#/p5/stroke) |
+| strokeWeight() | ` strokeWeight(1);`|[Stroke Weight Reference](https://p5js.org/reference/#/p5/strokeWeight) |
+| fill() | ` fill(255, 204, 0); `| [Fill Reference](https://p5js.org/reference/#/p5/fill) |
 | ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
-| Ordered List | ` 1. Items `|
-| Links | ` [Link Name](url)`|
-| Images | `![Image Name](file location)`|
+
 
  #### Issues ####
 
