@@ -20,7 +20,7 @@ Britt Dalton, 74199 section 50
 
 |Functions | Code Example | More Info |
 |---------- | -------------|-----------|
-| Background() | `background(255, 204, 0);`|
+| Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
 | Emphasis | ` *Italics*`|
 | Unordered List | ` * Items `|
 | Ordered List | ` 1. Items `|
