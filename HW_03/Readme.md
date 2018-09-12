@@ -46,13 +46,3 @@ Britt Dalton, 74199 section 50
  limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
  fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
  ![Canvas Grid](/HW_03/Grid_example.png)
-
-
-
-
-
-Structure for summary:
-
- Course Issue Board:
- - Helped classmates with week 02 structure
- - Helped classmates with link issues and image issues
