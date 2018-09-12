@@ -14,7 +14,9 @@ Britt Dalton, 74199 section 50
  #### Sketching with p5.js ####
  To create in p5.js you will need to [download](https://p5js.org/download/) the library and
  set up your directories to work in. After getting set up, it is best to spend some time
- practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function.
+ practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
+ of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
+ Draw() function. 
 
 ###### Functions used to create "Hello World": ######
 
