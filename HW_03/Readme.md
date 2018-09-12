@@ -43,6 +43,9 @@ Britt Dalton, 74199 section 50
 
  [p5.js reference](https://p5js.org/reference/)
 
+ :bulb: Hello World! This is a traditional first line of code written in any new language you learn.
+ Credited to Brian Kernighan, the phrase is the first test of the output of your code.
+
  :zap: Learning to place shapes on your canvas can be a little frustrating, especially
  if you are unfamiliar with grids. The dimensions of your canvas will define the
  limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
