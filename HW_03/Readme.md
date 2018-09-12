@@ -42,4 +42,4 @@ Britt Dalton, 74199 section 50
 
 
 
- ![Screenshot for week 3] (/HW_03/Week_03_screenshot.png)
+ ![Screenshot of week 03 HW](/HW_03/Week_03_screenshot.png)
