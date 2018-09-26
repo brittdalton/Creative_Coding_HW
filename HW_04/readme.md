@@ -53,5 +53,4 @@ Britt Dalton, 74199 section 50
  ![Canvas Grid](/HW_03/Grid_example.png)
 
  :zap:
-![Translate Grid](/HW_04/Translate_grid.png)
- 
+![Translate Grid](/HW_04/Translate_grid_01.png)
