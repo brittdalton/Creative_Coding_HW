@@ -52,5 +52,7 @@ Britt Dalton, 74199 section 50
  fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
  ![Canvas Grid](/HW_03/Grid_example.png)
 
- :zap:
+ :bulb: If last week's issue (placing shapes on a grid) was difficult, this tip will help. 'translate()' will alter the center point of your grid.
+ For example if you have created a canvas with dimensions of 200 x 200 'createCanvas( 200,200)' you can add 'translate(100,100)' to move the center point of the grid to the center point of your
+ canvas. This will create a grid that you are familiar with from using grids in math.
 ![Translate Grid](/HW_04/Translate_grid_01.png)
