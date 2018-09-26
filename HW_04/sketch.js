@@ -17,10 +17,33 @@ translate(450,450);                        //alter center point
 
 
 
+push();                                   //sky
+
+fill('rgb(116, 181, 226)');
+stroke('rgb(116, 181, 226)');
+rect(-450,-450,900,300);
+
+pop();
+//End sky
+
+push();                                 //tree branch
+
+stroke('rgb(85, 47, 3)');
+strokeWeight(20);
+line(-200,450,450,450);
+
+stroke('rgb(85, 47, 3)');
+strokeWeight(20);
+line(-100,350,0,450);
+
+pop();
+//End tree branch
+
+
 push();                                       //Nest and Egg
 
 ellipse(56, 350, 125, 155);
-fill('rgb(149,148,3)');
+fill('rgb(215, 214, 27)');
 ellipse(56, 425, 355, 55);
 
 pop();
