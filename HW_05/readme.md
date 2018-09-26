@@ -1,5 +1,5 @@
 # Creative Coding I #
-### Week 4 ###
+### Week 5 ###
 
 Britt Dalton, 74199 section 50
 
@@ -43,7 +43,9 @@ Britt Dalton, 74199 section 50
 
  [p5.js reference](https://p5js.org/reference/)
 
- :bulb: **Order of Operations** The order of elements is important,
+ :bulb: **Order of Operations** The order of elements is important to getting the
+ outcome you desire. When using scale, translate and rotate, it is important they
+ go in that order (as written: scale, translate, rotate).
 
  :zap: Learning to place shapes on your canvas can be a little frustrating, especially
  if you are unfamiliar with grids. The dimensions of your canvas will define the
