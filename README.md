@@ -13,4 +13,4 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 [Week 03 Practice : Ellipse](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_ellipse)
 
 #### Coding Characters ####
-[Week 04 Homework : Little Blue Birds](https://brittdalton.github.io/Creative_Coding_HW/HW_04/)
+[Week 04 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_04/)
