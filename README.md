@@ -14,3 +14,6 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 
 #### Coding Characters ####
 [Week 04 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_04/)
+
+#### Animation ####
+[Week 05 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_05/)
