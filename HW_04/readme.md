@@ -38,12 +38,11 @@ Britt Dalton, 74199 section 50
 
  #### Issues + Insights ####
 
-:bulb: **Order of Operations** Adobe Color CC has an interactive color wheel
+:bulb: Adobe Color CC has an interactive color wheel
 that allows you to input desired colors and will show you colors that fit into your
 desired colors. You can choose from analogous, monochromatic, triad, complementary,
 compound, shades or a custom color.
 
-:bulb: [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
 ![Color wheel](/HW_04/Color_wheel.png)
 
