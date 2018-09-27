@@ -8,10 +8,10 @@ Britt Dalton, 74199 section 50
 
 
  #### Introduction ####
- Many artists learning to code begin with [processing software](https://processing.org),
- using a JavaScript library [p5.js](https://p5js.org) you can "draw" in a web browser.
- The basic features are familiar tools to create simiple designs; shapes, colors and
- composition.
+ 2 dimensional shapes can be used to create a composition in p5.js, setting up a canvas and
+ defining the parameters you are working in is the first step. After laying out the
+ technical requirements, traditional art practices and color theory can help
+ make your design visually appealing.
 
  #### Sketching with p5.js ####
  To create in p5.js you will need to [download](https://p5js.org/download/) the library and
@@ -19,18 +19,20 @@ Britt Dalton, 74199 section 50
  practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
  of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
  Draw() function.
+[Color Theme](https://color.adobe.com/explore/?filter=most-popular&time=month)
+ [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
 ###### Functions used to create "Hello World" and "Hello Ellipse": ######
 
-|Functions | Code Example | More Info |
-|---------- | -------------|-----------|
-| Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
-| ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
-| line()| ` line(30, 20, 85, 75);`|[Line Reference](https://p5js.org/reference/#/p5/line) |
-| stroke() | `stroke(255, 204, 0);`|[Stroke Reference](https://p5js.org/reference/#/p5/stroke) |
-| strokeWeight() | ` strokeWeight(1);`|[Stroke Weight Reference](https://p5js.org/reference/#/p5/strokeWeight) |
-| fill() | ` fill(255, 204, 0); `| [Fill Reference](https://p5js.org/reference/#/p5/fill) |
-| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
+|RGB Color | Code Example |
+|---------- | -------------|
+| Red | `rgb(255,0,0)`| 
+| ellipse() | ` ellipse(56, 46, 55, 55);`|
+| line()| ` line(30, 20, 85, 75);`|
+| stroke() | `stroke(255, 204, 0);`|
+| strokeWeight() | ` strokeWeight(1);`|
+| fill() | ` fill(255, 204, 0); `|
+| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|
 
 
  #### Issues + Insights ####
