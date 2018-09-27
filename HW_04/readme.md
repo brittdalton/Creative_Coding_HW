@@ -45,7 +45,6 @@ compound, shades or a custom color.
 
 [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
-![Color wheel](/HW_04/Color_wheel.png)
 
 :bulb: If you are looking for colors that work well together, Adobe Color CC has
 a list of color themes that can be used on any project and will provide color Code
