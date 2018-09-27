@@ -13,12 +13,15 @@ Britt Dalton, 74199 section 50
  technical requirements, traditional art practices and color theory can help
  make your design visually appealing.
 
- #### Sketching with p5.js ####
- To create in p5.js you will need to [download](https://p5js.org/download/) the library and
- set up your directories to work in. After getting set up, it is best to spend some time
- practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
- of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
- Draw() function.
+ #### Shape and Color ####
+ After getting a handle on the technical format of creating a canvas and creating
+ a sketch with p5.js, it is time to focus on how to make an image with your code.
+ The ability to combine shapes and control which shapes are placed in front of or
+ behind other shapes will give your designs a smooth, polished look.
+
+ The order items are placed will determin which is over and which is under the
+ other shapes on your canvas. In order to get even more control, use the [push()](https://p5js.org/reference/#/p5/push)
+ and [pop()](https://p5js.org/reference/#/p5/pop) functions to create a sandbox for various elements of your design.
 
 
 
