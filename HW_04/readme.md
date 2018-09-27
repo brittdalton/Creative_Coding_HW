@@ -19,35 +19,41 @@ Britt Dalton, 74199 section 50
  practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
  of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
  Draw() function.
-[Color Theme](https://color.adobe.com/explore/?filter=most-popular&time=month)
- [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
-###### Functions used to create "Hello World" and "Hello Ellipse": ######
+
+
+###### Color Values in RGB: ######
 
 |RGB Color | Code Example |
 |---------- | -------------|
-| Red | `rgb(255,0,0)`| 
-| ellipse() | ` ellipse(56, 46, 55, 55);`|
-| line()| ` line(30, 20, 85, 75);`|
-| stroke() | `stroke(255, 204, 0);`|
-| strokeWeight() | ` strokeWeight(1);`|
-| fill() | ` fill(255, 204, 0); `|
-| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|
+| Red | `rgb(255,0,0)`|
+| Green | ` rgb(0,255,0)`|
+| Blue | ` rgb(0,0,255)`|
+| Black | `rgb(0,0,0)`|
+| White | ` rgb(255,255,255)`|
+| Grey | ` rgb(112,112,112) `|
+
+
 
 
  #### Issues + Insights ####
 
-:bulb: When learning to code, following along with a course and being provided code samples
- and lists of options to use can be invaluable in supporting development but in
- addition to provided information, the references written for specific languages contain
- extensive information to support learning and exploration as well as a place to
- look for updated materials or changes.
+:bulb: **Order of Operations** Adobe Color CC has an interactive color wheel
+that allows you to input desired colors and will show you colors that fit into your
+desired colors. You can choose from analogous, monochromatic, triad, complementary,
+compound, shades or a custom color.
 
- [p5.js reference](https://p5js.org/reference/)
+:bulb: [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
- :bulb: **Order of Operations** The order of elements is important to getting the
- outcome you desire. When using scale, translate and rotate, it is important they
- go in that order (as written: scale, translate, rotate).
+![Color wheel](/HW_04/Color_wheel.png)
+
+:bulb: If you are looking for colors that work well together, Adobe Color CC has
+a list of color themes that can be used on any project and will provide color Code
+info for CMYK, RGB, LAB, HSB and HEX. Click on any theme and select "edit a copy"
+to see the codes.
+
+ [Color Theme](https://color.adobe.com/explore/?filter=most-popular&time=month)
+
 
  :zap: Learning to place shapes on your canvas can be a little frustrating, especially
  if you are unfamiliar with grids. The dimensions of your canvas will define the
