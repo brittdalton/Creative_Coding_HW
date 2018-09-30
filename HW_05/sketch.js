@@ -1,21 +1,38 @@
 function setup(){
 createCanvas( windowWidth,900);
+frameRate(30);                              //Frame rate for animation
+
 
 }
+
+var tree_branch="rgb(85, 47, 3)";             //Save time on freq used color
+
+var x = mouseX;                               //Set variables
+var y = mouseY;
+var ix = width - mouseX;                      //Inverse of X
+var iy = height - mouseY;                     //Inverse of Y
+
+
 
 function draw(){
     background ( 'rgba(199, 109, 36, 0.91)' ); //background color
 
+    line(mouseX, mouseY, pmouseX, pmouseY);     //Cursor creates line w/ variable length
+
     noCursor(); //remove cursor icon
-    fill('rgb(241, 124, 164)');
-    ellipse( mouseX, mouseY, 40,60 );
-    ellipse( mouseX, mouseY, 20,40 );
+    fill('rgb(241, 124, 164)');                 //Color of mouse x,y ellipses
+    ellipse( mouseX,40,60,33 );                 //Interactive mouse ellipses
+    ellipse( mouseX/2,80,60,70 );
+    ellipse(mouseX*2,120,60,90);
+
+
+
 
 
   push();                                     //sandbox creation for character
 
     translate(450,450);                        //alter center point of grid
-    translate(mouseX,mouseY);                        //character follows mouse
+    //translate(mouseX,mouseY);                        //character follows mouse
 
 
 /*
@@ -30,36 +47,37 @@ function draw(){
   //End sky
 */
 
-/*
+
   //tree branch
  push();
 
-    stroke('rgb(85, 47, 3)');
+    stroke(tree_branch);
     strokeWeight(20);
     line(-200,450,450,450);
 
-    stroke('rgb(85, 47, 3)');
+    stroke(tree_branch);
     strokeWeight(20);
     line(-100,350,0,450);
 
-    stroke('rgb(85, 47, 3)');
+    stroke(tree_branch);
     strokeWeight(40);
     line(300,-450,300,450);
 
   pop();
 //End tree branch
-*/
-/*
+
+
   //Nest and Egg
   push();
 
+    fill('rgb(230, 237, 237)');
     ellipse(56, 350, 125, 155);
     fill('rgb(215, 214, 27)');
     ellipse(56, 425, 355, 55);
 
   pop();
   //Nest and Egg
-*/
+
 
   //Body
   push();
