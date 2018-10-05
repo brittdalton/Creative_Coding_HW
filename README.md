@@ -26,3 +26,8 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 [Week 06 Practice : Random Numbers](https://brittdalton.github.io/Creative_Coding_HW/HW_06/Practice_01)
 
 [Week 06 Practice : Random Chords](https://brittdalton.github.io/Creative_Coding_HW/HW_06/Practice_02)
+
+#### Conditional Statements + Program Flow ####
+[Week 07 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+
+[Week 07 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
