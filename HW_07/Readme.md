@@ -1,11 +1,11 @@
 # Creative Coding I #
-### Week 3 ###
+### Week 7 ###
 
 Britt Dalton, 74199 section 50
 
-[Hello World](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_world)
+[ Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
 
-[Ellipse Practice](https://brittdalton.github.io/Creative_Coding_HW/HW_03/Hello_ellipse)
+[ Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
 
  #### Introduction ####
  Many artists learning to code begin with [processing software](https://processing.org),
