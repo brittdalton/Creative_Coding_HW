@@ -21,9 +21,9 @@ function draw(){
 
     noCursor(); //remove cursor icon
     fill('rgb(241, 124, 164)');                 //Color of mouse x,y ellipses
-    ellipse( mouseX,40,60,33 );                 //Interactive mouse ellipses
-    ellipse( mouseX/2,80,60,70 );
-    ellipse(mouseX*2,120,60,90);
+    ellipse( mouseX,mouseY,60,33 );                 //Interactive mouse ellipses
+    ellipse( mouseX/2,mouseY,60,70 );
+    ellipse(mouseX*2,mouseY,60,90);
 
 
 

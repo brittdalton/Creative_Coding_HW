@@ -1,6 +1,6 @@
 function setup(){     // setup funtion needs to be in the top of each sketch.js
 createCanvas( windowWidth,900 );        // and only needs to be added once
-
+noCursor();                              //remove cursor icon
 
 }
 
@@ -11,20 +11,28 @@ function draw(){
 background ( 'rgba(199, 109, 36, 0.91)' ); //background color
 
 
+//worm
+
+
+fill('rgb(241, 124, 164)');                 //Color of mouse x,y ellipses
+ellipse(mouseX,mouseY,20,10);               //top of worm
+ellipse(mouseX +5,mouseY +5,20,10);        //moves ellipse over for body segment
+ellipse(mouseX +10,mouseY +10,20,10);
+ellipse(mouseX +15,mouseY +15,20,10);
+
+
 push();                                     //sandbox creation for character
 
 translate(450,450);                        //alter center point
 
-
-
-push();                                   //sky
-
+//sky
+push();
 fill('rgb(116, 181, 226)');
 stroke('rgb(116, 181, 226)');
 rect(-450,-450,windowWidth,300);
-
 pop();
-//End sky
+
+
 
 push();                                 //tree branch
 
@@ -169,7 +177,7 @@ pop();
 
                                        //baby bird 2 - 3nd Character
 
-
+push();
 
 translate (150,100);
 scale(1);
@@ -219,10 +227,11 @@ pop();
 //End Eyes
 
 
-
 pop();
 //End head
 
+pop();
+//end sandbox for character 3
 
 pop();
 //End character
