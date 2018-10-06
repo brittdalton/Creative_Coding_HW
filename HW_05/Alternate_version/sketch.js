@@ -1,6 +1,18 @@
+var aa = 150;
+var bb = 20;
+var cc = -60;
+var dd = 0;
+var ee = 30;
+var ff = 10;
+var gg = 0;
+var hh = -6;
+
+
+
 function setup(){     // setup funtion needs to be in the top of each sketch.js
-createCanvas( windowWidth,900 );        // and only needs to be added once
+createCanvas( windowWidth,windowHeight );        // and only needs to be added once
 noCursor();                              //remove cursor icon
+
 
 }
 
@@ -38,7 +50,7 @@ push();                                 //tree branch
 
 stroke('rgb(85, 47, 3)');
 strokeWeight(20);
-line(-200,450,450,450);
+line(-200,450,windowWidth,450);
 
 stroke('rgb(85, 47, 3)');
 strokeWeight(20);
@@ -186,7 +198,7 @@ push();                                       //Body 3
 
 ellipseMode(CENTER);
 fill('rgb(110, 143, 204)');
-ellipse(56, 150, 225, 255);
+ellipse(56, aa, 225, 255);
 
 
 pop();
@@ -197,7 +209,7 @@ pop();
 push();                                       //Wings 3
 
 fill('rgb(30, 73, 100)');
-rect( 20, 20, 200, 200, 0, 90, 45, 150 );
+rect( 20, bb, 200, 200, 0, 90, 45, 150 );
 
 pop();
 //End wings
@@ -205,11 +217,11 @@ pop();
 push();                                       //Head 3
 
 fill('rgb(112, 146, 204)');
-rect( -70, -60, 150, 175, 90 );
+rect( -70, cc, 150, 175, 90 );
 
 push();                                       //Beak 3
 fill('rgb(238, 222, 10)');
-triangle( -65, 0, -70, 30, -120, 10 );
+triangle( -65, dd, -70, ee, -120, ff );
 
 pop();
 //End beak
@@ -219,9 +231,9 @@ push();                                       //Eyes 3
 
 ellipseMode(CENTER);
 fill('rgb(0,0,0)');
-ellipse(-10, 0, 25, 25);
+ellipse(-10,gg, 25, 25);
 fill('rgb(255,255,255)');
-ellipse(-12,-6,5,5);
+ellipse(-12,hh,5,5);
 
 pop();
 //End Eyes
@@ -230,9 +242,27 @@ pop();
 pop();
 //End head
 
+aa = aa - 2;
+bb = bb - 2;
+cc = cc - 2;
+dd = dd - 2;
+ee = ee - 2;
+ff = ff - 2;
+gg = gg - 2;
+hh = hh - 2;
+
+
+
 pop();
 //end sandbox for character 3
 
 pop();
 //End character
+}
+
+
+function mousePressed(){
+
+background ( 'rgba(199, 109, 36, 0.91)' ); //background color refill on mouse click
+
 }
