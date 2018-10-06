@@ -5,7 +5,7 @@ Britt Dalton, 74199 section 50
 
 [Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_05/)
 
-[Little Blue Bird **Revision**](https://brittdalton.github.io/Creative_Coding_HW/HW_05/Alternate_version)
+[Little Blue Bird **Revision**](https://brittdalton.github.io/Creative_Coding_HW/HW_05/Alternate_version) October 6, 2018
 
 [Week 05 Practice : Bounce](https://brittdalton.github.io/Creative_Coding_HW/HW_05/Practice_motion)
 
