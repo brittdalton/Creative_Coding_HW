@@ -16,12 +16,12 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 [Week 04 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_04/)
 
 #### Animation ####
-[Week 05 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_05/)
+[Week 05 Homework : Little Blue Bird](https://brittdalton.github.io/Creative_Coding_HW/HW_05/Alternate_version)
 
 [Week 05 Practice : Bounce](https://brittdalton.github.io/Creative_Coding_HW/HW_05/Practice_motion)
 
 #### Algorithms ####
-[Week 06 Homework : Math, Strings, Objects ](https://brittdalton.github.io/Creative_Coding_HW/HW_06/Alternate_version)
+[Week 06 Homework : Math, Strings, Objects ](https://brittdalton.github.io/Creative_Coding_HW/HW_06/Math_strings_objects_ohmy)
 
 [Week 06 Practice : Random Numbers](https://brittdalton.github.io/Creative_Coding_HW/HW_06/Practice_01)
 
