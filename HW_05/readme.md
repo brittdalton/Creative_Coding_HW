@@ -18,7 +18,7 @@ Britt Dalton, 74199 section 50
  #### Animation in p5.js ####
  The shapes and colors created in the draw function are not created once and displayed
  in browsers as it appears, they are actually drawn, redrawn and redrawn over and
- over again. The [' function draw() ']([p5.js reference](https://p5js.org/reference/)) is a
+ over again. The [function draw()](https://p5js.org/reference/) is a
  loop that goes through commands in order and then begins again at the top line. In order
  to create an animation, you will simply change the sketch over time and use a frame
  rate that is high enough to create the illusion of movement in your design.
