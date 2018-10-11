@@ -1,6 +1,6 @@
 
 
-let ball = {};
+var ball = {};
 ball.width = 40;
 ball.x = 10;
 ball.y = 10;
@@ -10,8 +10,8 @@ ball.scale_x = 1;
 ball.scale_y = 1;
 
 function setup() {
-    createCanvas(windowWidth, 400);
-    background(255);
+    createCanvas(windowWidth, windowHeight);
+    background('rgb(246, 92, 58)');
 }
 
 
@@ -31,6 +31,10 @@ function draw() {
     stroke('rgb(74, 244, 15)');                         //add outline color to change default to green
     fill('rgb(230, 241, 14)');                          //change fill to yellow
     ellipse(ball.x, ball.y, ball.width, ball.width);
+
+
+
+
 }
 
 function mousePressed() {                               //creates change when mouse is clicked
