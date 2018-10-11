@@ -23,7 +23,7 @@ Britt Dalton, 74199 section 50
  Mouse pressed creates a change in direction and velocity when you click the
  mouse.
 
-###### Altered Code ######
+#### Altered Code ####
 
 In order to make the sketch more interesting to me, I first added colors.
 The ellipses now have a green outline, which is all you can see as the line
