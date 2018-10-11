@@ -8,46 +8,59 @@ Britt Dalton, 74199 section 50
 
 
  #### Introduction ####
- Many artists learning to code begin with [processing software](https://processing.org),
- using a JavaScript library [p5.js](https://p5js.org) you can "draw" in a web browser.
- The basic features are familiar tools to create simiple designs; shapes, colors and
- composition.
+In order to make your sketches more complex you will need to integrate math into your
+animations and use equations to write/define variables. Making more complex sketches
+gives you an increased amount of control over your designs.
 
- #### Sketching with p5.js ####
- To create in p5.js you will need to [download](https://p5js.org/download/) the library and
- set up your directories to work in. After getting set up, it is best to spend some time
- practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
- of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
- Draw() function.
+ #### Math in p5.js ####
+ Basic math in p5.js is simple and very similar to traditional calculations. Addition
+ var up = 10+3, subtraction var down = 10-3, multiplication var slide = 10*3, and
+ division var climb = 10/3.
 
-###### Functions used to create "Hello World" and "Hello Ellipse": ######
+###### Calculations in code: ######
 
 |Functions | Code Example | More Info |
 |---------- | -------------|-----------|
-| Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
-| ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
-| line()| ` line(30, 20, 85, 75);`|[Line Reference](https://p5js.org/reference/#/p5/line) |
-| stroke() | `stroke(255, 204, 0);`|[Stroke Reference](https://p5js.org/reference/#/p5/stroke) |
-| strokeWeight() | ` strokeWeight(1);`|[Stroke Weight Reference](https://p5js.org/reference/#/p5/strokeWeight) |
-| fill() | ` fill(255, 204, 0); `| [Fill Reference](https://p5js.org/reference/#/p5/fill) |
-| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
+| abs() | `var y = abs(x);`| [Absolute Value](https://p5js.org/reference/#/p5/abs) |
+| round() | ` var bx = round(map(mouseX, 0, 100, 0, 5));`| [Round Reference](https://p5js.org/reference/#/p5/round) |
+| floor()| ` var bx = floor(map(mouseX, 0, 100, 0, 5));`|[Floor Reference](https://p5js.org/reference/#/p5/floor) |
+| ceil() | `var bx = ceil(map(mouseX, 0, 100, 0, 5));`|[Ceil Reference](https://p5js.org/reference/#/p5/ceil) |
+| sqrt() | ` var x2 = sqrt(x1);`|[Square root Reference](https://p5js.org/reference/#/p5/sqrt) |
+| lerp() | ` var c = lerp(a, b, 0.2); `| [Lerp Reference](https://p5js.org/reference/#/p5/lerp) |
+| Modulo  | `var buble = numerator % 3;`|  [Modulo %](https://p5js.org/reference/#/p5/ellipseMode) |
 
 
  #### Issues + Insights ####
 
-:bulb: When learning to code, following along with a course and being provided code samples
- and lists of options to use can be invaluable in supporting development but in
- addition to provided information, the references written for specific languages contain
- extensive information to support learning and exploration as well as a place to
- look for updated materials or changes.
+:bulb: **Order of Operations**
+        * Parenthesis
+        * Increase ++
+        * Decrease --
+        * Exponents
+        * Multiplication
+        * Division
+        * Modulo
+        * Addition
+        * Subtraction
 
  [p5.js reference](https://p5js.org/reference/)
 
- :bulb: Hello World! This is a traditional first line of code written in any new language you learn.
- Credited to Brian Kernighan, the phrase is the first test of the output of your code.
+ :bulb: **Increasing & Decreasing** Using ++ will increase the value by 1 in your code,
+ using -- will decrease the value by 1 in your code.
 
- :zap: Learning to place shapes on your canvas can be a little frustrating, especially
- if you are unfamiliar with grids. The dimensions of your canvas will define the
- limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
- fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
- ![Canvas Grid](/HW_03/Grid_example.png)
+ Example:
+var open = 0;
+var close = 100;
+
+function draw() {
+    background( 'blue' );
+
+
+    open ++;
+    close --;
+
+ :zap: Dividing by zero in your equations or setting up a variable and using that
+ variable in a way that will lead to dividing by zero will lead to problems with your
+ code and the function will be compromised.
+
+ [Dividing by zero : Khan Academy](https://www.khanacademy.org/math/algebra/introduction-to-algebra/division-by-zero/v/why-dividing-by-zero-is-undefined)
