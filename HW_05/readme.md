@@ -27,7 +27,7 @@ Britt Dalton, 74199 section 50
 
 |Functions | Code Example | More Info |
 |---------- | -------------|-----------|
-| noCursor() | ` noCursor(); `| [Info on cursor] (https://p5js.org/reference/) |
+| noCursor() | ` noCursor(); `| [Info on cursor](https://p5js.org/reference/) |
 | mouseX, mouseY | ` ellipse(mouseX, mouseY, 55, 55); `| [Interactivity](https://p5js.org/learn/interactivity.html) |
 | Interaction| ` Follow `|[Example](https://p5js.org/examples/interaction-follow-1.html) |
 | Interaction | ` Reach `|[Example](https://p5js.org/examples/interaction-reach-1.html) |
