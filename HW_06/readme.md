@@ -50,12 +50,12 @@ gives you an increased amount of control over your designs.
  using -- will decrease the value by 1 in your code.
 
  Example:
+
 var open = 0;
 var close = 100;
 
 function draw() {
     background( 'blue' );
-
 
     open ++;
     close --;
