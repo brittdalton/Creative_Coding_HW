@@ -11,53 +11,56 @@ Britt Dalton, 74199 section 50
 
 
  #### Introduction ####
- Many artists learning to code begin with [processing software](https://processing.org),
- using a JavaScript library [p5.js](https://p5js.org) you can "draw" in a web browser.
- The basic features are familiar tools to create simiple designs; shapes, colors and
- composition.
+ Characters and basic shapes can be given specific movements or assigned tasks such as replacing
+ the cursor in order to create more interesting creations in p5.js . Creating points of interaction
+ or assigning random movements can give your sketch more depth.
 
- #### Sketching with p5.js ####
- To create in p5.js you will need to [download](https://p5js.org/download/) the library and
- set up your directories to work in. After getting set up, it is best to spend some time
- practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
- of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
- Draw() function.
+ #### Animation in p5.js ####
+ The shapes and colors created in the draw function are not created once and displayed
+ in browsers as it appears, they are actually drawn, redrawn and redrawn over and
+ over again. The [function draw()]([p5.js reference](https://p5js.org/reference/)) is a
+ loop that goes through commands in order and then begins again at the top line. In order
+ to create an animation, you will simply change the sketch over time and use a frame
+ rate that is high enough to create the illusion of movement in your design.
 
-###### Functions used to create "Hello World" and "Hello Ellipse": ######
+###### Functions used to create various animations: ######
 
 |Functions | Code Example | More Info |
 |---------- | -------------|-----------|
-| Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
-| ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
-| line()| ` line(30, 20, 85, 75);`|[Line Reference](https://p5js.org/reference/#/p5/line) |
-| stroke() | `stroke(255, 204, 0);`|[Stroke Reference](https://p5js.org/reference/#/p5/stroke) |
-| strokeWeight() | ` strokeWeight(1);`|[Stroke Weight Reference](https://p5js.org/reference/#/p5/strokeWeight) |
-| fill() | ` fill(255, 204, 0); `| [Fill Reference](https://p5js.org/reference/#/p5/fill) |
-| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
+| noCursor() | ` noCursor(); `| [Info on cursor] (https://p5js.org/reference/) |
+| mouseX, mouseY | ` ellipse(mouseX, mouseY, 55, 55); `| [Interactivity](https://p5js.org/learn/interactivity.html) |
+| Interaction| ` Follow `|[Example](https://p5js.org/examples/interaction-follow-1.html) |
+| Interaction | ` Reach `|[Example](https://p5js.org/examples/interaction-reach-1.html) |
+| Motion | ` Bounce `|[Example](https://p5js.org/examples/motion-bounce.html) |
+| Motion | ` Moving Line `| [Example](https://p5js.org/examples/motion-linear.html) |
+| Motion | ` Changing Shapes `|  [Example](https://p5js.org/examples/motion-morph.html) |
 
 
  #### Issues + Insights ####
 
-:bulb: When learning to code, following along with a course and being provided code samples
- and lists of options to use can be invaluable in supporting development but in
- addition to provided information, the references written for specific languages contain
- extensive information to support learning and exploration as well as a place to
- look for updated materials or changes.
+:bulb: **Variables** are a way to store data and recall them in your code. Variables may be
+familiar to you from traditional math classes where letters are assigned a number value
+X=3 | X+5=8. Variables in coding work the same way but can include more than just a numerical
+value. When defining a variable in p5.js you must list the value you are representing (X=3)
+"var x = 3" which means "the variable x is equal to 3".
 
- [p5.js reference](https://p5js.org/reference/)
+ [More on variables in coding](https://launchschool.com/books/ruby/read/variables)
+
+:zap: **Readable Code** The code you write is 'behind the scenes' but it needs to
+be clear and easy to read by other people in order to facilitate cooperation and
+making it easy for others to understand your work and your intentions.
+Things that make your code easier to read:
+tabs - setting the start point of your lines apart
+space - leaving blank lines between sections just as you would in written compositions.
+organization - keeping certain information together in the same place even though it may
+work in another location will make it easier to read through and understand.
 
  :bulb: **Order of Operations** The order of elements is important to getting the
  outcome you desire. When using scale, translate and rotate, it is important they
  go in that order (as written: scale, translate, rotate).
 
- :zap: Learning to place shapes on your canvas can be a little frustrating, especially
- if you are unfamiliar with grids. The dimensions of your canvas will define the
- limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
- fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
- ![Canvas Grid](/HW_03/Grid_example.png)
+ Order of operations is very important in writing variables using math as well.
 
- :bulb: If last week's issue (placing shapes on a grid) was difficult, this tip will help. [translate()](https://p5js.org/reference/#/p5/translate) will alter the center point of your grid.
- For example if you have created a canvas with dimensions of 200 x 200 'createCanvas( 200,200)' you can add 'translate(100,100)' to move the center point of the grid to the center point of your
- canvas. This will create a grid that you are familiar with from using grids in math.
-
-![Translate Grid](/HW_04/Translate_grid_01.png)
+ :zap: **Frame Rate** The default frame rate if not specifically defined is
+ 60 frames per second. Using frameRate(); in your setup function can slow down
+ an animation that is going too fast for your liking.
