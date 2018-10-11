@@ -19,7 +19,7 @@ gives you an increased amount of control over your designs.
 
 ###### Calculations in code: ######
 
-|Functions | Code Example | More Info |
+|Math | Code Example | More Info |
 |---------- | -------------|-----------|
 | abs() | `var y = abs(x);`| [Absolute Value](https://p5js.org/reference/#/p5/abs) |
 | round() | ` var bx = round(map(mouseX, 0, 100, 0, 5));`| [Round Reference](https://p5js.org/reference/#/p5/round) |
@@ -33,6 +33,7 @@ gives you an increased amount of control over your designs.
  #### Issues + Insights ####
 
 :bulb: **Order of Operations**
+
         * Parenthesis
         * Increase ++
         * Decrease --
