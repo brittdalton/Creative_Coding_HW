@@ -7,47 +7,40 @@ Britt Dalton, 74199 section 50
 
 [ Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
 
- #### Introduction ####
- Many artists learning to code begin with [processing software](https://processing.org),
- using a JavaScript library [p5.js](https://p5js.org) you can "draw" in a web browser.
- The basic features are familiar tools to create simiple designs; shapes, colors and
- composition.
+ #### Assignment ####
+ This week's HW was to download provided sample code and change it to make it
+ more interesting.
 
- #### Sketching with p5.js ####
- To create in p5.js you will need to [download](https://p5js.org/download/) the library and
- set up your directories to work in. After getting set up, it is best to spend some time
- practicing [setup()](https://p5js.org/reference/#/p5/setup) and experimenting with a rendering option such as the [createCanvas()](https://p5js.org/reference/#/p5/createCanvas) function. The [Draw()](https://p5js.org/reference/#/p5/draw) function is important to use because it executes lines
- of code contained inside it. The basic shapes, colors etc. described below will all be contained within the
- Draw() function.
+ #### Sample Code ####
+ The sample code creates a sketch that draws ellipses. The ellipses are animated
+ to move across the canvas. The background is drawn behind the ellipses so a
+ trail of ellipses can be seen when the draw funtion loops around. The variables
+ define the ellipses orginal location and allow for the speed of the animations.
 
-###### Functions used to create "Hello World" and "Hello Ellipse": ######
+ The draw function contains a pair of 'if' statements that keep the ellipse
+ from moving beyond the x,y boundries.
 
-|Functions | Code Example | More Info |
-|---------- | -------------|-----------|
-| Background() | `background(255, 204, 0);`| [Background Reference](https://p5js.org/reference/#/p5/background) |
-| ellipse() | ` ellipse(56, 46, 55, 55);`| [Ellipse Reference](https://p5js.org/reference/#/p5/ellipse) |
-| line()| ` line(30, 20, 85, 75);`|[Line Reference](https://p5js.org/reference/#/p5/line) |
-| stroke() | `stroke(255, 204, 0);`|[Stroke Reference](https://p5js.org/reference/#/p5/stroke) |
-| strokeWeight() | ` strokeWeight(1);`|[Stroke Weight Reference](https://p5js.org/reference/#/p5/strokeWeight) |
-| fill() | ` fill(255, 204, 0); `| [Fill Reference](https://p5js.org/reference/#/p5/fill) |
-| ellipseMode() | `ellipseMode(RADIUS); fill(255);ellipse(50, 50, 30, 30);`|  [Ellipse Mode Reference](https://p5js.org/reference/#/p5/ellipseMode) |
+ Mouse pressed creates a change in direction and velocity when you click the
+ mouse.
 
+###### Altered Code ######
 
- #### Issues + Insights ####
+In order to make the sketch more interesting to me, I first added colors.
+The ellipses now have a green outline, which is all you can see as the line
+of ellipses crosses the screen without interference. I added a yellow fill,
+which can be seen in the leading ellipse and added a red backgound to give
+the idea that the yellow dot is trailing through the red and creating a
+green trail, adding a background color makes the trail appear more smooth because
+you can no longer see a clear ellipse outline after it moves.
 
-:bulb: When learning to code, following along with a course and being provided code samples
- and lists of options to use can be invaluable in supporting development but in
- addition to provided information, the references written for specific languages contain
- extensive information to support learning and exploration as well as a place to
- look for updated materials or changes.
+I also changed the speed of the animation because the mouse pressed only
+worked when you could get it in just the right place and was a little frustrating
+to do when it went faster, so i slowed it down. If you want to see the end pattern
+of the animation it now takes longer but the interesting part of this sketch is
+the interaction so I believe making that more accessable is prefered.
 
- [p5.js reference](https://p5js.org/reference/)
-
- :bulb: Hello World! This is a traditional first line of code written in any new language you learn.
- Credited to Brian Kernighan, the phrase is the first test of the output of your code.
-
- :zap: Learning to place shapes on your canvas can be a little frustrating, especially
- if you are unfamiliar with grids. The dimensions of your canvas will define the
- limits of your grid. For example, if you set a canvas size of 200 x 200 your shapes will
- fall within the parameters of 0-200 x-axsis and 0-200 y-axis grid.
- ![Canvas Grid](/HW_03/Grid_example.png)
+I also changed the size of the canvas to window width and window height because
+I really do not like the disconnect of seeing something in a 'window' within a
+'window'. I think the sketch should fill the canvas and that should be the
+canvas defined by the user. Ideally it would also be responsive but I did
+not include it in the alterations.
