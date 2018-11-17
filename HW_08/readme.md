@@ -1,5 +1,5 @@
 # Creative Coding I #
-### Week 6 ###
+### Week 8 ###
 
 Britt Dalton, 74199 section 50
 
