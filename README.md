@@ -33,26 +33,26 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 [Week 07 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
 
 #### Loops ####
-[Week 08 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+[Week 08 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_08/Name)
 
-[Week 08 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+[Week 08 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_08/Second)
 
 #### Arrays ####
-[Week 09 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+[Week 09 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_09/Name)
 
-[Week 09 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+[Week 09 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_09/Second))
 
 #### Functions ####
-[Week 10 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+[Week 10 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_10/Name)
 
-[Week 10 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+[Week 10 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_10/Second)
 
 #### Intro to Objects ####
-[Week 10 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+[Week 11 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_11/Name)
 
-[Week 10 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+[Week 11 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_11/Second)
 
 #### Interactive Objects ####
-[Week 10 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+[Week 12 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_12/Name)
 
-[Week 10 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+[Week 12 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_12/Second)
