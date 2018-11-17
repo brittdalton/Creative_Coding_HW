@@ -31,3 +31,18 @@ This repo will be my homework submission site for Creative Coding for Fall 2018.
 [Week 07 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
 
 [Week 07 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+
+#### Loops ####
+[Week 08 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+
+[Week 08 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+
+#### Arrays ####
+[Week 09 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+
+[Week 09 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
+
+#### Functions ####
+[Week 10 Homework : Sample Code ](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Original)
+
+[Week 10 Homework : Altered Code](https://brittdalton.github.io/Creative_Coding_HW/HW_07/Altered)
