@@ -14,6 +14,13 @@ Introduction to computer science and programming concepts. Coding as a tool to e
 - Functions
 - objects
 
+#### Resources
+[Course website](https://montana-media-arts.github.io/creative-coding-1/)
+
+*Getting Started with p5.js* **Lauren McCarthy,Casey Reas and Ben Fry**
+
+## Projects
+
 #### Begining with Markdown ####
 [Week 02 Homework](https://brittdalton.github.io/Creative_Coding_HW/HW_02/)
 
@@ -66,8 +73,3 @@ Introduction to computer science and programming concepts. Coding as a tool to e
 [Week 12 Homework : Name    ](https://brittdalton.github.io/Creative_Coding_HW/HW_12/Name)
 
 [Week 12 Homework :  Second  ](https://brittdalton.github.io/Creative_Coding_HW/HW_12/Second)
-
-#### Resources
-[Course website](https://montana-media-arts.github.io/creative-coding-1/)
-
-*Getting Started with p5.js* **Lauren McCarthy,Casey Reas and Ben Fry**
