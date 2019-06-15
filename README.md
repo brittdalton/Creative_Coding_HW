@@ -4,6 +4,9 @@
 
 Introduction to computer science and programming concepts. Coding as a tool to express creativity and artistic contribution to the world. Working with p5.js framework.
 
+#### Computational Design
+[The Art of Creative Coding | Off Book | PBS Digital Studios](https://youtu.be/eBV14-3LT-g?t=51)
+
 #### Fundamentals
 - variables
 - conditionals
