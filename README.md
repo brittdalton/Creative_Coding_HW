@@ -2,7 +2,14 @@
 
 ## Britt Dalton ##
 
-This repo will be my homework submission site for Creative Coding for Fall 2018.
+Introduction to computer science and programming concepts. Coding as a tool to express creativity and artistic contribution to the world. Working with p5.js framework.
+
+#### Fundamentals
+- variables
+- conditionals
+- iterations
+- Functions
+- objects
 
 #### Begining with Markdown ####
 [Week 02 Homework](https://brittdalton.github.io/Creative_Coding_HW/HW_02/)
